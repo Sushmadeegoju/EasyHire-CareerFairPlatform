@@ -1,0 +1,116 @@
+.sponsorDetails {
+    padding: 20px;
+    width: 70%;
+}
+
+.sponsorDetails h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.sponsorDetails p {
+    margin-bottom: 10px;
+}
+
+.sponsorDetails strong {
+    font-weight: bold;
+}
+
+.app {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+.meetingDetails {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.meetingInfo {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    display: flex;
+    align-items: column;
+    justify-content: space-between;
+}
+
+
+.meetingDetails h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+
+}
+
+.dropdownArrow {
+    margin-left: 100px;
+}
+
+.dateInfo, .timeInfo, .interactionType, .recruiterInfo, .availableSlots {
+    margin-bottom: 20px;
+}
+
+h3, h4, h5 {
+    margin-bottom: 10px;
+}
+
+
+.leftInfo, .rightInfo {
+        width: 50%;
+}
+
+
+.rightInfo {
+    align-items: center;
+}
+
+.dateInfo, .timeInfo, .interactionType, .recruiterInfo, .availableSlots {
+    margin-bottom: 20px;
+}
+
+.meetingToggle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #016b63;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.clockIcon {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.dropdownArrow {
+    margin-left: 40rem;
+}
+
+.popup {
+    color: #016b63;
+    font-size: 24px;  /* Increased font size */
+    position: fixed;  /* Use fixed positioning to place popup relative to the viewport */
+    top: 0;  /* Place it at the very top of the viewport */
+    left: 50%;  /* Center it horizontally relative to the viewport */
+    transform: translateX(-50%);  /* Adjust for true centering */
+    padding: 20px 40px;  /* Increased padding */
+    z-index: 1000;  /* Ensure popup is on top of other elements */
+    background-color: rgba(255, 255, 255, 0.8);  /* White background with 70% opacity */
+    border-radius: 5px;  /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);  /* Subtle shadow for some depth */
+    white-space: nowrap;  /* Prevent text wrapping */
+}

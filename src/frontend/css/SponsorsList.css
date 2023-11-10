@@ -1,0 +1,40 @@
+.sponsorsList {
+    width: 30%;
+    border-right: 3px solid  #016b63;
+    overflow-y: auto;
+}
+.sponsorsList .selected {
+    background-color: #c8e9e5;; /* Choose a color that indicates selection */
+}
+
+.sponsorsList > div {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 3px solid  #016b63;
+    border-left: 3px solid  #016b63;
+}
+
+.sponsorsList > div:hover, div::selection {
+    background-color:  #c8e9e5;
+}
+
+.sponsorContent {
+    display: flex;
+    justify-content: space-between; /* Separates text and image */
+    width: 100%;
+}
+
+.sponsorText {
+    /* Styles for the text */
+    flex: 1; /* Allows text to grow and fill available space */
+    margin-right: 10px; /* Spacing between text and image */
+}
+
+.sponsorImage {
+    /* Styles for the image */
+    height: 50px; /* Set a fixed height for the image */
+    width: 50px; /* Set a fixed width for the image */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 50%; /* Optional: makes the image round */
+    margin-left: 10px; /* Spacing between text and image */
+}

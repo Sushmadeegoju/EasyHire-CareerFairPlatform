@@ -1,0 +1,102 @@
+/* General container styles */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 36rem;
+    background-color: #c8e9e5;
+    padding: 20px;
+  
+    /* position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); */
+  }
+  
+  .register-card {
+    width: 500px; /* card width */
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* subtle shadow for card */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Header styling */
+  .register-card > div:first-child {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .selection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .role {
+    width: 42%; /* slightly less than half to give space in between */
+    padding: 10px;
+    border: 4px solid #016b63;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .role:hover {
+    background-color: #e9e9e9; /* light gray background on hover */
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff; /* deep blue color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* darker shade of blue on hover */
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .register-frgt-pswrd {
+    margin-top: 20px;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+  
+  .remove {
+    color: #016b63;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .align-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00857b; /* Background color for the header */
+    padding: 0px 20px;
+    color: white; /* Text color for the header */
+  }
