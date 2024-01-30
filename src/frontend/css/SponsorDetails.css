@@ -36,6 +36,7 @@
     border-top: 1px solid #ccc;
     padding-top: 20px;
     display: flex;
+    flex-direction: column;
     align-items: column;
     justify-content: space-between;
 }

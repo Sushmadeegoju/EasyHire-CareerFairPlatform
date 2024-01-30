@@ -30,7 +30,7 @@ const jobSeekerSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    phoneNumber: {
+    phone: {
         type: String,
         required: true
     },
@@ -38,21 +38,22 @@ const jobSeekerSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    skills: {
+    skillset: {
         type: String,
         required: true
     }, 
-    experience: {
+    workExperience: {
         type: String,
         required: true
     },
     linkedIn: {
+        type: String
+    },
+    image: {
         type: String,
-        required: true
     },
     resume: {
-        type: String,
-        required: true
+        type: String
     }
 })
 

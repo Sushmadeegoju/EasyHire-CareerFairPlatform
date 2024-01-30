@@ -3,6 +3,7 @@ const jobSeekerModel = require( "../model/jobSeekers");
 const getAlljobSeekers = async (req, res) => {
     try {
         const jobSeekers = await jobSeekerModel.find();
+        // console.log(jobSeekers);
         res.status(200).json(jobSeekers);
     } catch(error) {
         console.log("Something went wrong!" + error);
@@ -25,7 +26,8 @@ const postjobSeeker = async (req, res) => {
 const getJobSeeker = async (req,res) => {
     const emailId = req.params.emailId;
     try {
-        const user = await jobSeekerModel.find( {email : emailId});
+        const user = await jobSeekerModel.findOne({email : emailId});
+        // console.log(user.json());
         res.status(200).json(user);
     } catch(error) {
         console.log("JobSeeker Not found!" + error);

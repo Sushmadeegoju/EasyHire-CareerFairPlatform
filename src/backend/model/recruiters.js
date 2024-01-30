@@ -24,7 +24,8 @@ const recruiterSchema = mongoose.Schema({
     companyName: {
         type: String,
         required: true
-    }
+    },
+    timeSlots: [String]
 })
 
 const recruiterModel = mongoose.model('recruiters', recruiterSchema)

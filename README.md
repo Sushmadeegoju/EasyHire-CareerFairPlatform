@@ -1,4 +1,3 @@
-# EasyHire-CareerFairPlatform
-EasyHire is a dynamic career fair platform, using React.js for the front-end, Node.js for the back-end, and MongoDB as the  database. 
-Engineered a scalable and responsive platform, integrating authentication systems, real-time updates, and interactive user interfaces to optimize jobseeker-recruiter interactions.
-Tech Stack: React.js, Node.js, MongoDB, Express.js, JIRA, Git 	       
+# EasyHire
+The traditional career fair model is outdated, characterized by long queues and superficial interactions between job seekers and recruiters.  This inefficiency loses time and frequently results in unsatisfactory matches. Through the creation of a digital platform that makes pre-screening calls and planned meetings possible, the initiative seeks to revolutionize this procedure. Job seekers and recruiters can conduct pre-screening talks to gauge shared interest one week prior to the event. In order to avoid lengthy delays and facilitate more focused conversations, if both parties are on the same page, they can book a specific time slot during the fair for a more in-depth talk. The software will provide updates and reminders in real-time, streamlining and speeding up the procedure. The initiative seeks to improve professional opportunities by displacing the disorganized first-come, first-serve paradigm with a more structured, pre-screened method.
+

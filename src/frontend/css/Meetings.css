@@ -1,0 +1,76 @@
+/* Meetings.css */
+.meetings {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .meetings h1 {
+    color: #016b63;
+    margin-bottom: 0.5em;
+  }
+  
+  .meetings p {
+    color: black;
+    margin-bottom: 2em;
+  }
+  
+  .meetings a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .meetings a:hover {
+    text-decoration: underline;
+  }
+  
+  .meeting {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 2px solid black;
+  }
+  
+  .meeting-info {
+    flex-grow: 1;
+  }
+  
+  .meeting-title {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 0.3em;
+  }
+  
+  .meeting-details {
+    font-size: 0.9em;
+    color: black;
+  }
+  
+
+.cancel-button {
+    background-color: rgb(184, 14, 14);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 30px;
+    width: 150px;
+    float: right; /* Position the button to the right */
+  }
+  
+  .cancel-button:hover {
+    background-color: rgb(224, 31, 31);
+    
+  }
+  
